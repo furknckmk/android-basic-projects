@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Birinci">
+    <menu>
+        <item android:id="@+id/nav_item_birinci"
+              android:title="Birinci"
+            ></item>
+        <item android:id="@+id/nav_item_ikinci"
+            android:title="Ikinci"
+            ></item>
+    </menu>
+</item>
+    <item android:title="Ikinci">
+<menu>
+    <item android:id="@+id/nav_item_ucuncu"
+        android:title="Ucuncu"
+        android:icon="@drawable/ic_baseline_restaurant_menu_24"
+        ></item>
+</menu>
+    </item>
+</menu>
